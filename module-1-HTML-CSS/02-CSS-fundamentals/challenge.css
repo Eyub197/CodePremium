@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+}
+
+h2,
+button,
+.free-delivery {
+    text-transform: uppercase;
+}
+
+/* =================
+        cta
+================== */
+
+button {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: inherit;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+button:hover {
+    color: black;
+    background-color: unset;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ==================
+   typography
+================== */   
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    background-color: whitesmoke;
+}    
+
+.free-delivery {
+    color: rgb(134, 128, 128);
+}    
+
+.price {
+    font-size: 26px;
+}
+
+/* ================
+   layout
+================ */
+
+article {
+    border: 5px solid black;
+}
+
+ul {
+    list-style-type:square ;
+}
