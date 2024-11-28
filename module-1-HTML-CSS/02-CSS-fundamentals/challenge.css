@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
     line-height: 1.5;
@@ -10,17 +15,30 @@ h3 {
     text-transform: uppercase;
 }
 
+/* Мисля че снимката изглежда едно и също като предишния път без да съм видял решението ала
+ана най-вероятно е окачкеано нещо подобно
+*/
+.article-image {
+    width: 40%;
+}
+
 /* =================
         cta
 ================== */
 
 button {
     cursor: pointer;
+    width: 100%;
+    padding: 20px;
     font-size: 20px;
     font-family: inherit;
     color: white;
     background-color: black;
     border: none;
+    border-top: 5px solid black;
+    /* border-left: none;
+    border-right: none;
+    border-bottom: none; */
 }
 
 button:hover {
@@ -41,33 +59,48 @@ a:hover, a:active {
 ================== */   
 
 h2 {
+    padding: 20px;
     font-size: 22px;
     text-align: center;
     background-color: #f7f7f7;
-}    
-
-.free-delivery {
-    font-size: 12px;
-    font-weight: bold;
-    color: #777;
 }    
 
 .price {
     font-size: 24px;
 }
 
+.free-delivery {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #777;
+}    
+
+.more-info {
+    /* можехме да изполаваме margin-top на h3 ала за да има само margin-bottom смених display */
+    display: inline-block;
+    margin-bottom: 26px;
+}
+
 h3 {
     font-size: 16px;
+    margin-bottom: 16px;
 }
 
 /* ================
    layout
 ================ */
 
+.wrapper {
+    width: 825px;
+    margin-inline: auto;
+}
+
 article {
     border: 5px solid black;
 }
 
 ul {
-    list-style-type:square ;
+    list-style-type:square;
+    margin-left: 20px;
 }
