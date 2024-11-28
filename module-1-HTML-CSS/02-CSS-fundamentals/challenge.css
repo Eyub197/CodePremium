@@ -29,7 +29,7 @@ h3 {
 button {
     cursor: pointer;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     font-size: 20px;
     font-family: inherit;
     color: white;
@@ -59,7 +59,7 @@ a:hover, a:active {
 ================== */   
 
 h2 {
-    padding: 20px;
+    padding: 15px;
     font-size: 22px;
     text-align: center;
     background-color: #f7f7f7;
@@ -70,16 +70,16 @@ h2 {
 }
 
 .free-delivery {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     font-size: 12px;
     font-weight: bold;
     color: #777;
 }    
 
-.more-info {
+a {
     /* можехме да изполаваме margin-top на h3 ала за да има само margin-bottom смених display */
     display: inline-block;
-    margin-bottom: 26px;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -94,6 +94,7 @@ h3 {
 .wrapper {
     width: 825px;
     margin-inline: auto;
+    margin-top: 100px;
 }
 
 article {
