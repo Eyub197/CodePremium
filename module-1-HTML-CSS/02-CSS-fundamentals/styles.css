@@ -84,7 +84,7 @@ li:last-child {
     font-style: italic
 }
 
-a:link {
+a:link, a:visited {
     text-decoration: none;
 }
 
@@ -118,3 +118,23 @@ aside {
     border-color: blue
     */
 }
+
+
+/* 
+specificity conflicts
+#copy-right {
+    color: red;
+}
+
+.copy-right {
+    color: blue;
+}
+
+.text {
+    color: yellow;
+}
+
+footer p {
+    color: green !important;
+}
+*/
