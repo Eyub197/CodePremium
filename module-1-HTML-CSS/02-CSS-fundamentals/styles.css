@@ -1,21 +1,15 @@
+body {
+    font-family: sans-serif;
+    color: #444;
+}
+
 /*================= 
    typography 
 =================*/
 
-h1, 
-h2,
-h3,
-h4,
-p,
-li {
-    font-family: sans-serif;
-}
-
 h1, h3, h4 {
     text-transform: uppercase;
 }
-
-/* challenge */
 
 h1, 
 h2, 
@@ -28,15 +22,13 @@ a:visited {
 
 /* challenge */
 
-p, li, h4 {
-    color: #444;
-}
-
 .post-author,
 li:first-child,
 a:hover {
     font-weight: bold;
 }
+
+/* challenge */
 
 li, h4 {
     font-size: 20px;
