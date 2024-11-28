@@ -1,4 +1,6 @@
-/* typography */
+/*================= 
+   typography 
+=================*/
 
 h1, 
 h2,
@@ -13,6 +15,18 @@ h1, h3, h4 {
     text-transform: uppercase;
 }
 
+/* challenge */
+
+h1, h2, h3 {
+    color: #8a2be2;
+}
+
+/* challenge */
+
+p, li, h4 {
+    color: #444;
+}
+
 li, h4 {
     font-size: 20px;
 }
@@ -24,7 +38,6 @@ li, h4 {
 h1 {
     font-size: 26px;
     font-style: italic;
-    color: red;
 }
 
 h2 {
@@ -64,3 +77,20 @@ p {
     font-style: italic;
 }
 */
+
+/* =================
+    layout
+================= */
+
+.page-header, aside {
+    background-color: #f7f7f7;
+}
+
+aside {
+    border-top: 5px solid #8a2be2;
+    border-bottom: 5px solid #8a2be2;
+    /* challenge
+    border-color: blue
+    */
+    
+}
