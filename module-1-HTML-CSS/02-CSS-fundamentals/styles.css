@@ -96,6 +96,9 @@ li:last-child {
 }
 
 a:link, a:visited {
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 32px;
     text-decoration: none;
 }
 
@@ -103,6 +106,29 @@ a:hover, a:active {
     color: #5b189b;
     text-decoration: solid underline;
 }
+
+nav a:link, nav a:visited {
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 32px;
+} 
+
+nav a:link:last-child {
+    /* МНОГО ВАЖНО ДА СЕ ПРАВИ !!! */
+    margin-right: 0;
+}
+
+/* 
+nav a:link {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    background-color: red;
+} */
+
+/* li {
+    display: inline;
+} */
 
 /* video challenge
 
@@ -175,3 +201,4 @@ footer p {
     color: green !important;
 }
 */
+
